@@ -9,7 +9,18 @@
     *{box-sizing:border-box}
     html,body{height:100%;margin:0;padding:0;background:#ffffff;font-family:var(--font-sans);color:var(--value-color);}
     .page{max-width:var(--max-width);margin:0 auto;padding:16px 18px 80px;}
+    .label-value {
+      display: flex;
+      flex-direction: column; /* 垂直排列 */
+}
 
+    .label {
+      color: var(--label-color);
+}
+
+    .value {
+      color: var(--value-color);
+}
     /* logo centered on top */
     .brand{display:flex;justify-content:center;align-items:center;padding:10px 0 18px;}
     .brand img{width:300px;max-width:35vw;height:auto;display:block;line-height:0;}
