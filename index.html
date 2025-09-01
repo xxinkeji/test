@@ -19,9 +19,9 @@
 
     /* info list */
     .info{border-top:1px dotted var(--dot);}
-    .row{display:flex;align-items:center;height:var(--row-h);border-bottom:1px dotted var(--dot);padding:0 8px;}
-    .label{flex:0 0 var(--label-w);color:var(--value-color);padding-left:6px;font-size:14px;}
-    .value{flex:1 1 auto;color:var(--label-color);font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+    .row{display:flex;flex-direction: column;align-items:flex-start;border-bottom:1px dotted var(--dot);padding:8px 6px;}
+    .label{flex:none;color:var(--value-color);font-size:14px;margin-bottom: 2px;}
+    .value{color:var(--label-color);font-size:14px;}
 
     /* the last rows may contain longer text wrapped */
     .value.wrap{white-space:normal;}
