@@ -96,7 +96,7 @@
   <script>
     function checkCode(){
       const code = document.getElementById('reportCode').value.trim();
-      if(code === "000XXX000XXX"){
+      if(code === "000"){
         document.querySelector('.main').style.display = 'none';
         document.getElementById('resultPage').style.display = 'block';
         document.getElementById('resultText').textContent = "报告编号 " + code + " 查询成功！";
